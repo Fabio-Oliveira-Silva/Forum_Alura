@@ -11,7 +11,7 @@
 
 - O ForumHub é uma API RESTful desenvolvida em Java com Spring Boot para gerenciamento de cursos, tópicos, respostas e usuários em um fórum de discussão.
 
-[📚 Tecnologias Utilizadas](#-tecnologias-utilizadas) - [🛠️ Funcionalidades](#-funcionalidades) - [🔐 Segurança](#-segurança) - [🔎 Endpoints](#-endpoints) - [⚙️ Como rodar o projeto localmente](#-como-rodar-o-projeto-localmente) - [🧪 Testes](#-testes) - [📄 Documentação](#-documentação) - [🧾 Licença](#-licença) - [👩‍💻 Autora](#-autora)
+[📚 Tecnologias Utilizadas](#-tecnologias-utilizadas) - [🛠️ Funcionalidades](#-funcionalidades) - [🔐 Segurança](#-segurança) - [🔎 Endpoints](#-endpoints) - [⚙️ Como rodar o projeto localmente](#-como-rodar-o-projeto-localmente) -
 
 ---
 
@@ -209,34 +209,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/forum_hub
 spring.datasource.username=root
 spring.datasource.password=${MYSQL_PASSWORD}
 api.security.token.secret=${JWT_TOKEN}
-```
 
----
-
-## 🧪 Testes
-
-- Testes unitários
-  - TopicsControllerTest
-    - Criação de tópico Cenario 01 ✅
-    - Criação de tópico Cenario 02 ✅
-    - Responder há um tópico ✅
----
-
-## 📄 Documentação
-
-- Swagger
-  - Acesse o link após start da aplicação: http://localhost:8081/swagger-ui/index.html#/
-
----
-## 🧾 Licença
-
-[Apache 2.0](https://github.com/Danimmota/forum-hub-challenge/blob/main/LICENSE.txt)
-
----
-
-## 👩‍💻 Autora
-
-Desenvolvido por Daniela Medeiro Mota em realização do Challenge: ForumHub ONE - Oracle Next Education + ALURA
 
 📧 Email: danielamedeiromota@hotmail.com
 
